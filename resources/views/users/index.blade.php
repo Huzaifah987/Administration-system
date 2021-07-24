@@ -186,11 +186,6 @@
                   <span class="nav-link-text">Tables</span>
                 </a>
             </li>
-                           <li class="nav-item mb-5 mr-4 ml-4 pl-1 bg-danger" style="position: absolute; bottom: 0;">
-                    <a class="nav-link text-white" href="https://www.creative-tim.com/product/argon-dashboard-pro-laravel" target="_blank">
-                        <i class="ni ni-cloud-download-95"></i> Upgrade to PRO
-                    </a>
-                </li>
         </ul>
         <!-- Divider -->
         <hr class="my-3">
@@ -216,7 +211,7 @@
         </ul>
     </div>
 </div>
-</nav>                
+</nav>
     <div class="main-content">
         <!-- Top navbar -->
 <nav class="navbar navbar-top navbar-expand-md navbar-dark" id="navbar-main">
@@ -277,12 +272,9 @@
         </li>
     </ul>
 </div>
-</nav>    
+</nav>
             <div class="header bg-gradient-primary pb-8 pt-5 pt-md-8">
 <div class="container-fluid">
-    <div class="alert alert-danger" role="alert">
-        <strong>This is a PRO feature!</strong>
-      </div>
     <div class="header-body">
         <!-- Card stats -->
         <div class="row">
@@ -388,7 +380,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-12">
                                         </div>
 
@@ -404,7 +396,7 @@
                         </thead>
                         <tbody>
                                                                 <tr>
-                                    <td>Admin Admin</td>
+                                    {{-- <td>Admin Admin</td>
                                     <td>
                                         <a href="mailto:admin@argon.com">admin@argon.com</a>
                                     </td>
@@ -418,20 +410,20 @@
                                                                                                         <a class="dropdown-item" href="">Edit</a>
                                                                                                 </div>
                                         </div>
-                                    </td>
+                                    </td> --}}
                                 </tr>
                                                         </tbody>
                     </table>
                 </div>
                 <div class="card-footer py-4">
                     <nav class="d-flex justify-content-end" aria-label="...">
-                        
+
                     </nav>
                 </div>
             </div>
         </div>
     </div>
-        
+
     <footer class="footer">
 <div class="row align-items-center justify-content-xl-between">
 <div class="col-xl-6">
@@ -462,11 +454,11 @@
 </div></footer>    </div>
     </div>
 
-    
+
     <script src="{{ asset('argon') }}/vendor/jquery/dist/jquery.min.js"></script>
         <script src="{{ asset('argon') }}/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    
-            
+
+
     <!-- Argon JS -->
     <script src="{{ asset('argon') }}/js/argon.js?v=1.0.0"></script>
 </body></html>
