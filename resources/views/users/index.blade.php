@@ -396,7 +396,7 @@
                         </thead>
                         <tbody>
                                                                 <tr>
-                                    {{-- <td>Admin Admin</td>
+                                   <td>Admin Admin</td>
                                     <td>
                                         <a href="mailto:admin@argon.com">admin@argon.com</a>
                                     </td>
@@ -410,7 +410,7 @@
                                                                                                         <a class="dropdown-item" href="">Edit</a>
                                                                                                 </div>
                                         </div>
-                                    </td> --}}
+                                    </td>
                                 </tr>
                                                         </tbody>
                     </table>
