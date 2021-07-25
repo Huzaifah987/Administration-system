@@ -58,17 +58,17 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('profile.edit') }}">
+                    <a class="nav-link" href="">
                         <i class="ni ni-circle-08 text-primary"></i> {{ __('User') }}
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('profile.edit') }}">
-                        <i class="ni ni-badge text-primary"></i> {{ __('User') }}
+                    <a class="nav-link" href="">
+                        <i class="ni ni-badge text-primary"></i> {{ __('List Users') }}
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('profile.edit') }}">
+                    <a class="nav-link" href="">
                         <i class="ni ni-email-83 text-primary"></i> {{ __('User') }}
                     </a>
                 </li>
@@ -80,12 +80,12 @@
                     <div class="collapse show" id="navbar-examples">
                         <ul class="nav nav-sm flex-column">
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('profile.edit') }}">
+                                <a class="nav-link" href="">
                                     {{ __('User Task') }}
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('profile.edit') }}">
+                                <a class="nav-link" href="">
                                     {{ __('User Task') }}
                                 </a>
                             </li>
