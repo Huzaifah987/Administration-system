@@ -27,7 +27,6 @@ Route::get('/adduser', function(){
 
 Route::group(['middleware' => 'auth'], function () {
 	Route::resource('user', 'App\Http\Controllers\UserController', ['except' => ['show']]);
-    Route::get('profile', ['as' => 'profile.index', 'uses' => 'App\Http\Controllers\ProfileListController@index']);
 	Route::get('upgrade', function () {return view('pages.upgrade');})->name('upgrade');
 	 Route::get('map', function () {return view('pages.maps');})->name('map');
 	 Route::get('icons', function () {return view('pages.icons');})->name('icons');

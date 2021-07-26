@@ -63,7 +63,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('profile.index') }}">
+                    <a class="nav-link" href="">
                         <i class="ni ni-badge text-primary"></i> {{ __('List Users') }}
                     </a>
                 </li>
