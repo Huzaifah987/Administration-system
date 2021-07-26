@@ -8,7 +8,7 @@
             <div class="col">
                 <div class="card">
                     <div class="card-header border-0">
-                        <h3 class="mb-0">Light Table</h3>
+                        <h3 class="mb-0">Project</h3>
                     </div>
                     <div class="table-responsive">
                         <table class="table align-items-center">

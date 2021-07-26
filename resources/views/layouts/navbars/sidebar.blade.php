@@ -108,11 +108,6 @@
                       <span class="nav-link-text">Tables</span>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="ni ni-circle-08 text-pink" href=""></i> {{ __('Register') }}
-                    </a>
-                </li>
             </ul>
             <!-- Divider -->
             <hr class="my-3">
